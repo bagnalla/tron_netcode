@@ -9730,7 +9730,7 @@ module.exports = TronClient;
 },{"../common/Cycle":54,"../common/Grid":55,"../common/TronUtil":56}],53:[function(require,module,exports){
 const io = require('socket.io-client');
 const Client = require('./TronClient');
-var socket = io.connect('http://65.24.28.30:3000', { reconnect: true });
+var socket = io.connect('https://65.24.28.30:3000', { reconnect: true });
 // var socket = io.connect('http://localhost:3000', { reconnect : true });
 
 console.log(socket);
